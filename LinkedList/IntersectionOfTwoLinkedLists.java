@@ -15,12 +15,12 @@ public class Solution {
         temp1 = head1;
         temp2 = head2;
         if(len1 > len2){ // temp1 ko aage bhejenge
-            for(int i=1;i<=len1-len2;i++){
+            for(int i=1;i<len1-len2;i++){
                 temp1 = temp1.next;
             }
         }
         else{ // temp2 ko aage bhejenge
-            for(int i=1;i<=len2-len1;i++){
+            for(int i=1;i<len2-len1;i++){
                 temp2 = temp2.next;
             }
         }
